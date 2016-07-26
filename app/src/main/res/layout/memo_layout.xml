@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/memo_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="타이틀"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/memo_contents_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:text="내용"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>
